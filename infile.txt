@@ -1,0 +1,39 @@
+#Opis zasobow
++ sOpening0,status,D0      # input  0=OPEN, 1=CLOSED
++ sOpening1,status,D1      # input  0=OPEN, 1=CLOSED
++ sOpening2,status,D2      # input  0=OPEN, 1=CLOSED
++ sOpening3,status,D3      # input  0=OPEN, 1=CLOSED
++ sOpening4,status,D4      # input  0=OPEN, 1=CLOSED
++ sOpening5,status,D5      # input  0=OPEN, 1=CLOSED
++ sOpening6,status,D6      # input  0=OPEN, 1=CLOSED
++ sOpening7,status,D7      # input  0=OPEN, 1=CLOSED
++ sOpening8,status,D8      # input  0=OPEN, 1=CLOSED
++ sOpening9,status,D9      # input  0=OPEN, 1=CLOSED
++ sOpening10,status,D10    # input  0=OPEN, 1=CLOSED
++ sOpening11,status,D11    # input  0=OPEN, 1=CLOSED
++ sOpening12,status,D12    # input  0=OPEN, 1=CLOSED
++ sOpening13,status,D13    # input  0=OPEN, 1=CLOSED
+
+#opis akcji
+
+#inicjowanie stanu poczatkowego
+: 0, sOpening0, 0
+: 0, sOpening1, 0
+: 0, sOpening2, 0
+: 0, sOpening3, 0
+: 0, sOpening4, 0
+: 0, sOpening5, 0
+: 0, sOpening6, 0
+: 0, sOpening7, 0
+: 0, sOpening8, 0
+: 0, sOpening9, 0
+: 0, sOpening10, 0
+: 0, sOpening11, 0
+: 0, sOpening12, 0
+: 0, sOpening13, 0
+
+#wlasciwe akcje
+: 10, sOpening0, 0
+: 30, sOpening1, 1
+: 50, sOpening2, 1
+#: ##uwaga jest bledem jezeli ostatnia linia nie jest pusta lub komentarzem
